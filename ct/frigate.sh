@@ -11,8 +11,12 @@ var_cpu="${var_cpu:-4}"
 var_ram="${var_ram:-4096}"
 var_disk="${var_disk:-20}"
 var_os="${var_os:-debian}"
-var_version="${var_version:-11}"
+var_version="${var_version:-12}"
 var_unprivileged="${var_unprivileged:-0}"
+var_hostname="Frigate99"
+hostname="Frigate99"
+
+msg_ok "${hostname}eoooooooooooo"
 
 header_info "$APP"
 variables
